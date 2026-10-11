@@ -1,0 +1,6 @@
+interface:
+  display_name: "提示词生成器"
+  short_description: "把模糊需求转成清晰完整、可直接复制给较小模型执行的提示词"
+  default_prompt: "使用 $prompt-builder 把我的需求写成能直接复制给较小模型执行的清晰提示词。"
+policy:
+  allow_implicit_invocation: true
